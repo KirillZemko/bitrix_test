@@ -1,0 +1,16 @@
+.img_section-3-pic-1 {
+  width: 90%;
+  top: -65px;
+  right: -20px;
+  z-index: 2;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1183px) {
+  .img_section-3-pic-2 {
+    display: none;
+  }
+
+  .img_section-3-pic-1 {
+    top: -25px;
+  }
+}

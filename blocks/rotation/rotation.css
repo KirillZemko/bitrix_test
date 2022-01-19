@@ -1,0 +1,14 @@
+@keyframes rotation {
+  from {
+    transform: scale(0.8);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.rotation {
+  animation: rotation 10s infinite linear;
+  z-index: -1;
+}

@@ -1,0 +1,12 @@
+.img_section-1-pic-2 {
+  width: 50%;
+  top: -20px;
+  right: 0;
+  z-index: 2;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1183px) {
+  .img_section-1-pic-2 {
+    display: none;
+  }
+}
